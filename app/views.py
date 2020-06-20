@@ -6,7 +6,7 @@ from django.core.mail import send_mail
 from django.core import serializers
 from django.core.paginator import Paginator
 
-from First_project.First_project.settings import STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY
+from project.project.settings import STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY
 import stripe
 
 def search_user(username,password,email):
